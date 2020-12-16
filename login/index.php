@@ -379,4 +379,10 @@ if (isloggedin() and !isguestuser()) {
     echo $OUTPUT->render($loginform);
 }
 
+echo '<div class="card-header text-center">';
+//echo '<br>';
+echo '<b>ERICK ALVAREZ<b><br>';
+echo '<button type="button" class="btn btn-primary">Destacado</button>';
+echo '</div>';
+
 echo $OUTPUT->footer();
